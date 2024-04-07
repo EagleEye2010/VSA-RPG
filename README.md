@@ -2,6 +2,7 @@
 
 ### Join the google chat for more information.
 
-To use, just download this. To download, just click the green "code" button, and then download as zip. Extract or unzip, then open with the Unity Hub. (Click "add" and then select the folder with this project)
+To use, just use Visual Studio to clone this repositry. Then open in the Unity Hub (Add > locate the folder). Unity will open with the project. You may have to go to scenes>SampleScene (will be renamed later) to open up the world.
 
-If you have added your additions, reach to me, and I will add it to the main project.
+
+If you have added your additions, merge or start a pull request in Visual Studio, and I will add it to the main project. It will show changes, and all you have to do is click commit, and then pull / pull request.
