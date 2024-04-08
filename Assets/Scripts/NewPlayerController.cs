@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Made by Eli
-public class PlayerController : MonoBehaviour
+public class NewPlayerController : MonoBehaviour
 {
   // SerializeField will allow us to select the rigidbody
   [SerializeField] private Rigidbody rb;
@@ -21,11 +20,11 @@ public class PlayerController : MonoBehaviour
     float z = 0;
 
     // Check if key is down, and then set velocities
-    if (Input.GetKey(KeyCode.W)) z = 1;
-    else if (Input.GetKey(KeyCode.S)) z = -1;
+    if (Input.GetKey(KeyCode.UpArrow)) z = 1;
+    else if (Input.GetKey(KeyCode.DownArrow)) z = -1;
 
-    if (Input.GetKey(KeyCode.A)) x = -1;
-    if (Input.GetKey(KeyCode.D)) x = 1;
+    if (Input.GetKey(KeyCode.LeftArrow)) x = -1;
+    if (Input.GetKey(KeyCode.RightArrow)) x = 1;
 
     // Multiply by delta time to keep it steady in all frame rates
     x *= Time.deltaTime * speed;
