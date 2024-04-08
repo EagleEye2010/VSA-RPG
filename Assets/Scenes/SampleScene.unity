@@ -137,8 +137,9 @@ GameObject:
   - component: {fileID: 148011978}
   - component: {fileID: 148011977}
   - component: {fileID: 148011982}
+  - component: {fileID: 148011983}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -232,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148011976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7963204, y: 4.276715, z: 7.4287796}
+  m_LocalPosition: {x: 7.16, y: 8.11, z: 7.4287796}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -254,7 +255,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 148011977}
-  speed: 10
+  speed: 15
+--- !u!114 &148011983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148011976}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f898cd8fcb125274a979fbd379f648ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 148011977}
+  speed: 15
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
